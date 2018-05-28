@@ -1,0 +1,8 @@
+version: '3'
+services:    
+  dockerremotedebug:
+    build: dockerremotedebug
+    container_name: test
+    ports:
+      - "5678:5678"
+      
