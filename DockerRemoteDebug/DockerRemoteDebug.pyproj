@@ -25,6 +25,7 @@
     <Compile Include="test.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Dockerfile" />
     <Content Include="documentation\docker_command.txt" />
   </ItemGroup>
