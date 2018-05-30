@@ -1,9 +1,11 @@
 import random
 import ptvsd
 
-ptvsd.enable_attach('my_secret')
-print("test!!!!!!!!!!!!!!!!!!!! wait for attach")
+ptvsd.enable_attach("my_secret")
+print("wait for attach !!!!!!!!!")
 ptvsd.wait_for_attach()
+print("attach suceeded !!!!!!!!!")
+
 guesses_made = 0
 name = input('Hello! What is your name?\n')
 number = random.randint(1, 20)

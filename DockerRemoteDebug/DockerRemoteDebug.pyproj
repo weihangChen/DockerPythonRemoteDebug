@@ -26,8 +26,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dockerfile" />
-    <Content Include="Dockerfile_bak" />
-    <Content Include="Dockerfile_ssh" />
     <Content Include="documentation\docker_command.txt" />
   </ItemGroup>
   <ItemGroup>
