@@ -27,10 +27,6 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="Dockerfile" />
-    <Content Include="documentation\docker_command.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="documentation\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
